@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- Open Graph tags -->
+      <meta property="og:title" content="L RMN">
+      <meta property="og:description" content="This is a free (and easy to use) alternative to linktree">
+      <meta property="og:image" content="https://res.cloudinary.com/lrmn/image/upload/v1685431439/lrmn.dev/linktree-og_kkymju.png>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./src/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/style.css">
+
+  <title>L RMN</title>
+</head>
+<body>
+<div class="container">
+  <div class="container-info">
+    <img src="./src/giphy.gif" alt="" class="container-info__img">
+    <div class="container-info__name-container">
+      <h3 class="container-info__name">L RMN</h3>
+      <i class="container-info__check fas fa-check-circle"></i>   
+    </div>
+    <p class="container-info__desc">Keep moving forward!</p>
+  </div>
+  <div class="container-cards">
+    <a class="container-card" href="tel: +84903252508" target="_blank">
+     <i class="container-card__icon fas fa-mobile-alt"></i>
+      <p class="container-card__name">Whatsapp</p>
+    </a>
+    <a class="container-card" href="https://www.twitter.com/romanromannya" target="_blank">
+      <i class="container-card__icon fab fa-twitter"></i>
+      <p class="container-card__name">Twitter</p>
+    </a>
+    <a class="container-card" href="https://www.facebook.com/" target="_blank">
+      <i class="container-card__icon fab fa-facebook"></i>
+      <p class="container-card__name">Facebook</p>
+    </a>
+    <a class="container-card" href="https://www.instagram.com/romanroman.nya" target="_blank">
+      <i class="container-card__icon fab fa-instagram"></i>
+      <p class="container-card__name">Instagram</p>
+    </a>
+       </a>
+    <a class="container-card" href="https://open.spotify.com/user/31urnjrljaimmmf52sealktmdz3i/" target="_blank">
+      <i class="container-card__icon fab fa-spotify"></i>
+      <p class="container-card__name">Spotify</p>
+    </a>
+      </a>
+    <a class="container-card" href="https://www.tiktok.com/@romanroman.nya" target="_blank">
+      <i class="container-card__icon fab fa-tiktok"></i>
+      <p class="container-card__name">Tiktok</p>
+    </a>
+      </a>
+    <a class="container-card" href="https://www.youtube.com/@LRMN_vp" target="_blank">
+      <i class="container-card__icon fab fa-youtube"></i>
+      <p class="container-card__name">Youtube</p>
+    </a>
+      </a>
+    </div>
+  <footer>
+    <p id="footer-text"></p>
+  </footer>
+  
+  <script>
+    const footerText = document.getElementById('footer-text');
+    const currentYear = new Date().getFullYear();
+    footerText.textContent = `Made with ❤ © ${currentYear} L RMN`;
+  </script>  
+  
+</div>
+</body>
+</html>
